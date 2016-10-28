@@ -1,0 +1,21 @@
+# Site settings
+title: My Existencial Programming Blog
+header-img: img/home-bg.png
+email: danielpuch1969@gmail.com
+copyright_name: DanielPuch
+description: > # this means to ignore newlines until "baseurl:"
+  Some notes about my programming journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: daniel_puch
+github_username:  DanielPuch
+learn_profile: DanielPuch
+email_username: danielpuch1969@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
